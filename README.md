@@ -1,6 +1,7 @@
 # best-text-editor
 
 ## Description
+This is Just Another Text Editor that runs in the browser and meets the PWA criteria. It features a number of data persistence techniques that serve as backup in case one of the options is not supporeted by the browser. It also functions offline. 
 
 ## Table of Contents
 1. [Description](#description)
