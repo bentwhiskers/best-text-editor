@@ -19,7 +19,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         filename: 'index.html',
-        template: './src/index.html'
+        template: './src/js/index.html'
       }),
       new WebpackPwaManifest({
         name: 'My Progressive Web App',
@@ -29,7 +29,7 @@ module.exports = () => {
         crossorigin: 'use-credentials', // can be null, use-credentials or anonymous
       }),
       new InjectManifest({
-        swSrc: './src/service-worker.js',
+        swSrc: './client/src-sw.js',
       }),
       new MiniCssExtractPlugin({ // For CSS
         filename: '[name].css',

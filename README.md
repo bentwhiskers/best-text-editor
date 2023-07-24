@@ -28,7 +28,9 @@ To install,
 
 ## Usage
 
-
+GIVEN a text editor web application, 
+WHEN I open my application in my editor
+THEN I should see a client server folder structure
 
 ## References
 
